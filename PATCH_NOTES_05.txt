@@ -1,0 +1,12 @@
+PATCH 05 - Müdahale istatistiği düzeltmesi
+
+Güncellenen dosya: test_advanced_card.py
+
+- Başarılı müdahale sayısı `tacklesmade` alanından alınır.
+- Deneme sayısı `tackleattempts` alanından alınır.
+- Başarı yüzdesi başarılı müdahale / deneme üzerinden hesaplanır.
+- `tacklesWon` alanı yanlış payda olarak kullanılmaz.
+- İstatistik başlığı Türkçeleştirildi.
+
+Kurulum: Bu dosyayı FC27ClubsBot klasöründeki aynı adlı dosyanın üzerine yazın.
+Test: .\.venv\Scripts\python.exe .\test_advanced_card.py
